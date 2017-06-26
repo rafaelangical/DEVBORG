@@ -1,0 +1,156 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*
+    CORES : 
+    #247AB7 Azual
+    #21D37A Verde
+    #F7C345 Amarelo
+    #F76045 Vermelho
+    #825092 Roxo
+
+    FONTS:
+    Lato
+    Roboto slab
+    
+    TAMANHO DAS FONTS:
+    TITULO:	36/40 || 48/60
+    SUBTITULO: 24/30 
+    TEXTO: 14/20 || 18/25
+
+*/
+/* ESTILOS GERAIS*/
+body{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+
+/* NAV: .cabecalho .logotipo .menu .menu_hamburgue */
+.cabecalho{
+    background: #247AB7;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.cabecalho .logotipo{
+    max-width: 35%;
+    margin-left: 2.5%;
+}
+.cabecalho .menu_hamburgue{
+    margin-right: 2.5%;
+}
+.menu_hamburgue{
+      display: none;
+}
+/*HEADER: .intro */
+.intro{
+    width: 100%;
+    height: 700px;
+    background: url("../img/bg-intro-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center
+    
+}
+.intro h1{
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #ffffff; 
+}
+.intro h1:after{
+    content: url("../img/separador.png");
+    display: block;
+    margin: 0 auto;
+    margin: 5px auto 15px auto; 
+}
+.intro ul li{
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 25px;
+    color: #ffffff; 
+}
+.btn-padrao{
+    width: 100%;
+    height: 10px;
+    padding-top: 60px;
+}
+.btn-padrao a{
+    font-size: 18px;
+    background: #ffffff;
+    color: #247AB7;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+/*SECTION: .servicos*/
+.servicos{
+    width: 100%;
+    padding-top: 60px;
+    background: #21D37A;
+}
+.servicos h2{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #ffffff; 
+    padding-bottom: 30px;
+}
+
+.servicos h2:after{
+    content: url("../img/sep2.png");
+    display: block;
+    margin: 0 auto;
+    margin: 5px auto 15px auto; 
+}
+.content-service{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 120px;
+}
+.box-servicos{
+    padding-top: 40px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.icone-servicos{
+    color: #fff;
+}
+.titulo-servicos{
+    padding-top: 40px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+.texto-servicos{
+    padding-top: 10px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+}
