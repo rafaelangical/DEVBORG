@@ -1,0 +1,33 @@
+-----------------------------------------------
+-----------------------------------------------
+
+O GRID esta feito com flexbox, se voce notar qualquer erro me avise.
+O GRID esta com padrão MOBILE então faz de MOBILE para DESKTOP.
+o padão CONTAINER sempre depois da section, e sempre usar ROW para o responsivo entre os COLS EX: COL-1 ... COL-12 ... TABLET COL-m-1 ....COL-m-12.
+
+AQUI VAI O LEVANTAMENTO DO SITE COM FONTS, CORES e etc:
+
+CORES:
+
+#247AB7 Azual
+#21D37A Verde
+#F7C345 Amarelo
+#F76045 Vermelho
+#825092 Roxo
+
+FONTS:
+
+Lato
+Roboto slab
+Raleway
+Merriweather
+
+
+TAMANHO DAS FONTS:
+
+TITULO:	36/40 || 48/60
+SUBTITULO: 24/30 
+TEXTO: 14/20 || 18/25
+
+OBS: Segui o Padrão de tamanho para cada fonte, espacamento, tamnho e etc.
+o tamnho do border nos inputs é 3px eu acho.
